@@ -8,9 +8,9 @@ ship "Aerie Mk II"
 		"hull" 5700
 		"required crew" 10
 		"bunks" 28
-		"mass" 124
-		"drag" 4.1
-		"heat dissipation" .7
+		"mass" 390
+		"drag" 6.15
+		"heat dissipation" .47
 		"fuel capacity" 600
 		"cargo space" 50
 		"outfit space" 448
@@ -71,9 +71,9 @@ ship "Bastion Mk II"
 		"hull" 14100
 		"required crew" 17
 		"bunks" 40
-		"mass" 551
-		"drag" 10.3
-		"heat dissipation" .5
+		"mass" 1100
+		"drag" 15.5
+		"heat dissipation" .34
 		"fuel capacity" 600
 		"cargo space" 110
 		"outfit space" 540
@@ -134,9 +134,9 @@ ship "Corvette Mk II"
 		"hull" 2400
 		"required crew" 8
 		"bunks" 32
-		"mass" 142
-		"drag" 3.5
-		"heat dissipation" .7
+		"mass" 380
+		"drag" 4.9
+		"heat dissipation" .5
 		"fuel capacity" 600
 		"cargo space" 40
 		"outfit space" 483
@@ -196,9 +196,9 @@ ship "Firebird Mk II"
 		"hull" 10200
 		"required crew" 7
 		"bunks" 22
-		"mass" 276
-		"drag" 4.5
-		"heat dissipation" .6
+		"mass" 630
+		"drag" 6.75
+		"heat dissipation" .4
 		"fuel capacity" 500
 		"cargo space" 50
 		"outfit space" 460
@@ -255,9 +255,9 @@ ship "Manta Mk II"
 		"hull" 4500
 		"required crew" 6
 		"bunks" 10
-		"mass" 162
-		"drag" 4.7
-		"heat dissipation" .8
+		"mass" 352
+		"drag" 6.3
+		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 20
 		"outfit space" 402
@@ -312,9 +312,9 @@ ship "Osprey Mk II"
 		"hull" 4800
 		"required crew" 9
 		"bunks" 24
-		"mass" 257
-		"drag" 5.9
-		"heat dissipation" .8
+		"mass" 630
+		"drag" 8.9
+		"heat dissipation" .54
 		"fuel capacity" 700
 		"cargo space" 40
 		"outfit space" 517
@@ -373,9 +373,9 @@ ship "Splinter Mk II"
 		"hull" 5100
 		"required crew" 7
 		"bunks" 21
-		"mass" 238
-		"drag" 4.0
-		"heat dissipation" .7
+		"mass" 510
+		"drag" 5.6
+		"heat dissipation" .5
 		"fuel capacity" 700
 		"cargo space" 75
 		"outfit space" 460
