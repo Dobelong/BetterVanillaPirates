@@ -211,6 +211,17 @@ mission "adding Mk II navy ships"
 	on complete
 		event "upgraded navy ships unlocked"
 
+mission "adding Mk II pirate ships"
+	invisible
+	landing
+	to offer
+		or
+			has "Sensa Unlock Ships (Kestrel Def): done"
+			has "Sensa Unlock Ships (Kestrel Wep): done"
+			has "Sensa Unlock Ships (Kestrel Eng): done"
+	on complete
+		event "upgraded pirate ships unlocked"
+
 
 
 event "upgraded navy ships unlocked"
