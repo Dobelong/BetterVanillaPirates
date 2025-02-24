@@ -3,7 +3,7 @@ ship "Nighthawk Mk II"
 	thumbnail "thumbnail/pirate nighthawk"
 	attributes
 		category "Transport"
-		"cost" 2530000
+		"cost" 7590000
 		"shields" 12000
 		"hull" 3300
 		"required crew" 4
