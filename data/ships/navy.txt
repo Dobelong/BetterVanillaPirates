@@ -9,9 +9,9 @@ ship "Auxiliary Mk II"
 		"hull" 17700
 		"required crew" 87
 		"bunks" 250
-		"mass" 779
-		"drag" 13.3
-		"heat dissipation" .45
+		"mass" 1900
+		"drag" 22.6
+		"heat dissipation" .27
 		"fuel capacity" 1000
 		"cargo space" 250
 		"outfit space" 828
@@ -80,9 +80,9 @@ ship "Carrier Mk II"
 		"hull" 20750
 		"required crew" 111
 		"bunks" 184
-		"mass" 865
-		"drag" 17.7
-		"heat dissipation" .45
+		"mass" 2640
+		"drag" 35.4
+		"heat dissipation" .23
 		"fuel capacity" 800
 		"cargo space" 100
 		"outfit space" 820
@@ -208,9 +208,9 @@ ship "Cruiser Mk II"
 		"hull" 16000
 		"required crew" 81
 		"bunks" 136
-		"mass" 646
-		"drag" 10.1
-		"heat dissipation" .45
+		"mass" 1910
+		"drag" 18.7
+		"heat dissipation" .25
 		"fuel capacity" 700
 		"cargo space" 60
 		"outfit space" 760
@@ -286,7 +286,7 @@ ship "Dropship Mk II"
 		"hull" 600
 		"required crew" 1
 		"bunks" 9
-		"mass" 29
+		"mass" 30
 		"drag" 0.8
 		"heat dissipation" .9
 		"cargo space" 5
@@ -330,9 +330,9 @@ ship "Frigate Mk II"
 		"hull" 7500
 		"required crew" 21
 		"bunks" 44
-		"mass" 295
-		"drag" 5.2
-		"heat dissipation" .7
+		"mass" 710
+		"drag" 8.1
+		"heat dissipation" .46
 		"fuel capacity" 600
 		"cargo space" 35
 		"outfit space" 471
@@ -394,9 +394,9 @@ ship "Gunboat Mk II"
 		"hull" 4200
 		"required crew" 7
 		"bunks" 12
-		"mass" 143
-		"drag" 3.1
-		"heat dissipation" .8
+		"mass" 280
+		"drag" 4.0
+		"heat dissipation" .62
 		"fuel capacity" 700
 		"cargo space" 50
 		"outfit space" 310
@@ -448,9 +448,9 @@ ship "Rainmaker Mk II"
 		"hull" 3600
 		"required crew" 3
 		"bunks" 7
-		"mass" 171
-		"drag" 3.8
-		"heat dissipation" .6
+		"mass" 260
+		"drag" 4.6
+		"heat dissipation" .5
 		"fuel capacity" 600
 		"cargo space" 25
 		"outfit space" 276
