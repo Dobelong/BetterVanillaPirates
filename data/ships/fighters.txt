@@ -10,7 +10,7 @@ ship "Barb Mk II"
 		"hull" 600
 		"required crew" 1
 		"bunks" 2
-		"mass" 19
+		"mass" 20
 		"drag" .8
 		"heat dissipation" .78
 		"outfit space" 97
@@ -51,7 +51,7 @@ ship "Dagger Mk II"
 		"hull" 900
 		"required crew" 1
 		"bunks" 1
-		"mass" 19
+		"mass" 20
 		"drag" .63
 		"heat dissipation" .9
 		"outfit space" 103
@@ -97,8 +97,8 @@ ship "Finch Mk II"
 		"hull" 600
 		"required crew" 1
 		"bunks" 1
-		"mass" 38
-		"drag" .83
+		"mass" 50
+		"drag" .87
 		"heat dissipation" .85
 		"outfit space" 126
 		"weapon capacity" 23
@@ -142,7 +142,7 @@ ship "Lance Mk II"
 		"hull" 1200
 		"required crew" 1
 		"bunks" 1
-		"mass" 29
+		"mass" 30
 		"drag" .7
 		"heat dissipation" .8
 		"outfit space" 115
