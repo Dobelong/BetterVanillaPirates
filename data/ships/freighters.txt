@@ -11,8 +11,8 @@ ship "Argosy Mk II"
 		"hull" 7800
 		"required crew" 4
 		"bunks" 14
-		"mass" 314
-		"drag" 5.9
+		"mass" 480
+		"drag" 7.4
 		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 120
@@ -73,8 +73,8 @@ ship "Clipper Mk II"
 		"hull" 2400
 		"required crew" 3
 		"bunks" 9
-		"mass" 144
-		"drag" 3.7
+		"mass" 210
+		"drag" 4.3
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 70
@@ -124,8 +124,8 @@ ship "Freighter Mk II"
 		"hull" 6000
 		"required crew" 2
 		"bunks" 7
-		"mass" 228
-		"drag" 5.6
+		"mass" 410
+		"drag" 7.6
 		"heat dissipation" .6
 		"fuel capacity" 700
 		"cargo space" 150
