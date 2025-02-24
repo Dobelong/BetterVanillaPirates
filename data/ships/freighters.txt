@@ -13,7 +13,7 @@ ship "Argosy Mk II"
 		"bunks" 14
 		"mass" 480
 		"drag" 7.4
-		"heat dissipation" .7
+		"heat dissipation" .56
 		"fuel capacity" 500
 		"cargo space" 120
 		"outfit space" 310
@@ -75,7 +75,7 @@ ship "Clipper Mk II"
 		"bunks" 9
 		"mass" 210
 		"drag" 4.3
-		"heat dissipation" .8
+		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 70
 		"outfit space" 299
@@ -126,7 +126,7 @@ ship "Freighter Mk II"
 		"bunks" 7
 		"mass" 410
 		"drag" 7.6
-		"heat dissipation" .6
+		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 150
 		"outfit space" 287
@@ -175,9 +175,9 @@ ship "Hauler Mk II"
 		"hull" 13100
 		"required crew" 3
 		"bunks" 12
-		"mass" 238
-		"drag" 10.5
-		"heat dissipation" .6
+		"mass" 490
+		"drag" 9.8
+		"heat dissipation" .43
 		"fuel capacity" 500
 		"cargo space" 130
 		"outfit space" 402
@@ -233,9 +233,9 @@ ship "Bulk Freighter Mk II"
 		"hull" 22800
 		"required crew" 12
 		"bunks" 21
-		"mass" 827
-		"drag" 14
-		"heat dissipation" .4
+		"mass" 1510
+		"drag" 16.8
+		"heat dissipation" .27
 		"fuel capacity" 1000
 		"cargo space" 640
 		"outfit space" 471
@@ -293,9 +293,9 @@ ship "Container Transport Mk II"
 		"hull" 24000
 		"required crew" 6
 		"bunks" 18
-		"mass" 836
-		"drag" 17.6
-		"heat dissipation" .6
+		"mass" 1525
+		"drag" 21.1
+		"heat dissipation" .4
 		"fuel capacity" 700
 		"cargo space" 550
 		"outfit space" 471
@@ -355,9 +355,9 @@ ship "Hauler II Mk II"
 		"hull" 15600
 		"required crew" 3
 		"bunks" 12
-		"mass" 342
-		"drag" 11.5
-		"heat dissipation" .6
+		"mass" 640
+		"drag" 10.7
+		"heat dissipation" .43
 		"fuel capacity" 500
 		"cargo space" 260
 		"outfit space" 402
@@ -416,9 +416,9 @@ ship "Hauler III Mk II"
 		"hull" 20100
 		"required crew" 3
 		"bunks" 12
-		"mass" 447
-		"drag" 12.5
-		"heat dissipation" .6
+		"mass" 790
+		"drag" 11.6
+		"heat dissipation" .43
 		"fuel capacity" 500
 		"cargo space" 390
 		"outfit space" 402
@@ -476,9 +476,9 @@ ship "Behemoth Mk II"
 		"hull" 18900
 		"required crew" 12
 		"bunks" 30
-		"mass" 513
-		"drag" 11.7
-		"heat dissipation" .4
+		"mass" 1120
+		"drag" 14.6
+		"heat dissipation" .26
 		"fuel capacity" 700
 		"cargo space" 490
 		"outfit space" 586
