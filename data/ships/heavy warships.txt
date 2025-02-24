@@ -10,9 +10,9 @@ ship "Dreadnought Mk II"
 		"hull" 18900
 		"required crew" 84
 		"bunks" 147
-		"mass" 599
-		"drag" 10.1
-		"heat dissipation" .65
+		"mass" 1840
+		"drag" 18.7
+		"heat dissipation" .36
 		"fuel capacity" 700
 		"cargo space" 100
 		"outfit space" 790
@@ -78,9 +78,9 @@ ship "Falcon Mk II"
 		"hull" 11100
 		"required crew" 52
 		"bunks" 91
-		"mass" 485
-		"drag" 6.7
-		"heat dissipation" .7
+		"mass" 1260
+		"drag" 11.4
+		"heat dissipation" .42
 		"fuel capacity" 700
 		"cargo space" 130
 		"outfit space" 644
@@ -142,9 +142,9 @@ ship "Leviathan Mk II"
 		"hull" 15000
 		"required crew" 43
 		"bunks" 64
-		"mass" 570
-		"drag" 8.1
-		"heat dissipation" .5
+		"mass" 1515
+		"drag" 14.2
+		"heat dissipation" .3
 		"fuel capacity" 600
 		"cargo space" 80
 		"outfit space" 713
@@ -201,9 +201,9 @@ ship "Protector Mk II"
 		"hull" 23400
 		"required crew" 30
 		"bunks" 69
-		"mass" 475
-		"drag" 10.3
-		"heat dissipation" .6
+		"mass" 1150
+		"drag" 16.5
+		"heat dissipation" .38
 		"fuel capacity" 500
 		"cargo space" 50
 		"outfit space" 678
@@ -265,9 +265,9 @@ ship "Vanguard Mk II"
 		"hull" 18000
 		"required crew" 23
 		"bunks" 45
-		"mass" 475
-		"drag" 8
-		"heat dissipation" .6
+		"mass" 1030
+		"drag" 12
+		"heat dissipation" .4
 		"fuel capacity" 500
 		"cargo space" 50
 		"outfit space" 644
