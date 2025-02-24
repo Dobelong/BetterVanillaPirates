@@ -1,4 +1,4 @@
-ship "Nighthawk MkII"
+ship "Nighthawk Mk II"
 	sprite "ship/pirate nighthawk"
 	thumbnail "thumbnail/pirate nighthawk"
 	attributes
