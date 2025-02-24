@@ -8,9 +8,9 @@ ship "Arrow Mk II"
 		"hull" 1200
 		"required crew" 1
 		"bunks" 5
-		"mass" 124
-		"drag" 2.0
-		"heat dissipation" .85
+		"mass" 180
+		"drag" 2.3
+		"heat dissipation" .74
 		"fuel capacity" 700
 		"cargo space" 10
 		"outfit space" 207
@@ -59,9 +59,9 @@ ship "Blackbird Mk II"
 		"hull" 2700
 		"required crew" 3
 		"bunks" 28
-		"mass" 209
-		"drag" 5.0
-		"heat dissipation" .7
+		"mass" 360
+		"drag" 6.2
+		"heat dissipation" .56
 		"fuel capacity" 800
 		"cargo space" 60
 		"outfit space" 402
@@ -111,9 +111,9 @@ ship "Bounder Mk II"
 		"hull" 2100
 		"required crew" 1
 		"bunks" 17
-		"mass" 123
-		"drag" 3.7
-		"heat dissipation" .8
+		"mass" 200
+		"drag" 4.4
+		"heat dissipation" .67
 		"fuel capacity" 900
 		"cargo space" 40
 		"outfit space" 253
@@ -158,9 +158,9 @@ ship "Flivver Mk II"
 		"hull" 600
 		"required crew" 1
 		"bunks" 3
-		"mass" 38
-		"drag" 1.0
-		"heat dissipation" .9
+		"mass" 50
+		"drag" 1.05
+		"heat dissipation" .86
 		"fuel capacity" 600
 		"cargo space" 15
 		"outfit space" 149
@@ -203,9 +203,9 @@ ship "Scout Mk II"
 		"hull" 1200
 		"required crew" 1
 		"bunks" 12
-		"mass" 105
-		"drag" 3.4
-		"heat dissipation" .7
+		"mass" 160
+		"drag" 3.9
+		"heat dissipation" .61
 		"fuel capacity" 900
 		"cargo space" 55
 		"outfit space" 253
@@ -254,9 +254,9 @@ ship "Star Queen Mk II"
 		"hull" 6600
 		"required crew" 33
 		"bunks" 112
-		"mass" 219
-		"drag" 4.5
-		"heat dissipation" .65
+		"mass" 525
+		"drag" 6.7
+		"heat dissipation" .44
 		"fuel capacity" 800
 		"cargo space" 60
 		"outfit space" 414
