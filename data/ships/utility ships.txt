@@ -8,9 +8,9 @@ ship "Mule Mk II"
 		"hull" 13200
 		"required crew" 14
 		"bunks" 43
-		"mass" 304
-		"drag" 5.7
-		"heat dissipation" .5
+		"mass" 780
+		"drag" 9.1
+		"heat dissipation" .32
 		"fuel capacity" 700
 		"cargo space" 170
 		"outfit space" 506
@@ -71,9 +71,9 @@ ship "Nest Mk II"
 		"hull" 11110
 		"required crew" 5
 		"bunks" 14
-		"mass" 238
-		"drag" 10.5
-		"heat dissipation" .67
+		"mass" 510
+		"drag" 9.8
+		"heat dissipation" .48
 		"fuel capacity" 600
 		"cargo space" 40
 		"outfit space" 460
@@ -133,9 +133,9 @@ ship "Roost Mk II"
 		"hull" 15600
 		"required crew" 7
 		"bunks" 16
-		"mass" 342
-		"drag" 11.5
-		"heat dissipation" .67
+		"mass" 680
+		"drag" 10.7
+		"heat dissipation" .48
 		"fuel capacity" 700
 		"cargo space" 80
 		"outfit space" 517
@@ -201,9 +201,9 @@ ship "Skein Mk II"
 		"hull" 20100
 		"required crew" 7
 		"bunks" 18
-		"mass" 447
-		"drag" 12.5
-		"heat dissipation" .71
+		"mass" 850
+		"drag" 11.6
+		"heat dissipation" .51
 		"fuel capacity" 800
 		"cargo space" 120
 		"outfit space" 575
