@@ -12,9 +12,9 @@ ship "Bactrian Mk II"
 		"hull" 17200
 		"required crew" 70
 		"bunks" 245
-		"mass" 940
-		"drag" 16.1
-		"heat dissipation" .4
+		"mass" 2450
+		"drag" 30.6
+		"heat dissipation" .22
 		"fuel capacity" 800
 		"cargo space" 530
 		"outfit space" 740
@@ -85,9 +85,9 @@ ship "Kestrel Mk II"
 		"hull" 18000
 		"required crew" 64
 		"bunks" 128
-		"mass" 740
-		"drag" 11
-		"heat dissipation" .6
+		"mass" 2135
+		"drag" 20.9
+		"heat dissipation" .32
 		"fuel capacity" 600
 		"cargo space" 120
 		"outfit space" 810
@@ -142,7 +142,7 @@ ship "Kestrel Mk II" "Kestrel Mk II (More Engines)"
 	sprite "ship/kestrele"
 	thumbnail "thumbnail/kestrele"
 	add attributes
-		"drag" -1.0
+		"drag" -1.9
 		"fuel capacity" 100
 		"engine capacity" 30
 	engine 13 170
@@ -156,7 +156,7 @@ ship "Kestrel Mk II" "Kestrel Mk II (More Shields)"
 	add attributes
 		"shields" 6000
 		"hull" 3750
-		"heat dissipation" .06
+		"heat dissipation" .032
 
 ship "Kestrel Mk II" "Kestrel Mk II (More Weapons)"
 	sprite "ship/kestrelw"
@@ -179,3 +179,46 @@ ship "Kestrel Mk II" "Kestrel Mk II (More Weapons)"
 	turret 7 -4 "Heavy Laser Turret"
 	turret -23 14 "Heavy Laser Turret"
 	turret 23 14 "Heavy Laser Turret"
+
+ship "Kestrel Mk II" "Kestrel Mk II (More Bays)"
+	sprite "ship/kestrelc"
+	thumbnail "thumbnail/kestrelc"
+	add attributes
+		"mass" 60
+		"weapon capacity" -20
+	outfits
+		"Particle Cannon" 2
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Heavy Laser Turret" 4
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Tactical Scanner" 2
+		
+		"Orca Plasma Thruster"
+		"Orca Plasma Steering"
+		"Hyperdrive"
+	gun -73.5 46 "Torpedo Launcher"
+	gun 73.5 46 "Torpedo Launcher"
+	gun -29.5 52 "Particle Cannon"
+	gun 29.5 52 "Particle Cannon"
+	turret -8 -10.5 "Heavy Laser Turret"
+	turret 8 -10.5 "Heavy Laser Turret"
+	turret -20.5 9 "Heavy Laser Turret"
+	turret 20.5 9 "Heavy Laser Turret"
+	bay "Fighter" -46 106
+		"launch effect" "human internal"
+	bay "Fighter" 46 106
+		"launch effect" "human internal"
+	bay "Fighter" -62 78
+		"launch effect" "human internal"
+	bay "Fighter" 62 78
+		"launch effect" "human internal"
+	bay "Fighter" -56 70
+		"launch effect" "human internal"
+	bay "Fighter" 56 70
+		"launch effect" "human internal"
+
