@@ -10,7 +10,7 @@ ship "Headhunter Mk II"
 		"bunks" 4
 		"mass" 175
 		"drag" 3.0
-		"heat dissipation" .8
+		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 50
 		"outfit space" 287
@@ -63,7 +63,7 @@ ship "Modified Argosy Mk II"
 		"bunks" 12
 		"mass" 400
 		"drag" 7.8
-		"heat dissipation" .6
+		"heat dissipation" .48
 		"fuel capacity" 500
 		"cargo space" 60
 		"outfit space" 391
@@ -124,7 +124,7 @@ ship "Quicksilver Mk II"
 		"bunks" 6
 		"mass" 170
 		"drag" 3.1
-		"heat dissipation" .8
+		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 15
 		"outfit space" 258
@@ -169,7 +169,7 @@ ship "Raven Mk II"
 		"bunks" 13
 		"mass" 250
 		"drag" 4.8
-		"heat dissipation" .8
+		"heat dissipation" .62
 		"fuel capacity" 600
 		"cargo space" 30
 		"outfit space" 322
