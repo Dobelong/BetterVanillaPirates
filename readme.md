@@ -1,5 +1,9 @@
 # Better Vanilla Pirates for Endless Sky
 
+## 2.2 (in progress)
+
+Dobelong here! I'm carrying on the work ZBok started until they come back. Do you dislike your heavy warships flying like fighters after the entire universe got reworked? I got you!
+
 ## 2.1
 
 2.0 did not have Mk II Navy ships as they aren't purchasable in vanilla.
