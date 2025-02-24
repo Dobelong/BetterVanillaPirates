@@ -99,7 +99,7 @@ ship "Finch Mk II"
 		"bunks" 1
 		"mass" 50
 		"drag" .87
-		"heat dissipation" .85
+		"heat dissipation" .81
 		"outfit space" 126
 		"weapon capacity" 23
 		"engine capacity" 46
