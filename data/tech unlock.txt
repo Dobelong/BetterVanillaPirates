@@ -401,3 +401,7 @@ event "upgraded human ships unlocked (Kestrel Eng)"
 		"Flivver Mk II"
 		"Scout Mk II"
 		"Star Queen Mk II"
+
+event "upgraded pirate ships unlocked"
+	shipyard "Upgraded Human Ships"
+		"Nighthawk Mk II"
