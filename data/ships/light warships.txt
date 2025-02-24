@@ -61,8 +61,8 @@ ship "Modified Argosy Mk II"
 		"hull" 5700
 		"required crew" 5
 		"bunks" 12
-		"mass" 238
-		"drag" 6.2
+		"mass" 400
+		"drag" 7.8
 		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 60
@@ -122,8 +122,8 @@ ship "Quicksilver Mk II"
 		"hull" 2400
 		"required crew" 3
 		"bunks" 6
-		"mass" 114
-		"drag" 2.7
+		"mass" 170
+		"drag" 3.1
 		"heat dissipation" .8
 		"fuel capacity" 500
 		"cargo space" 15
@@ -167,8 +167,8 @@ ship "Raven Mk II"
 		"hull" 4200
 		"required crew" 6
 		"bunks" 13
-		"mass" 124
-		"drag" 3.7
+		"mass" 250
+		"drag" 4.8
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 30
