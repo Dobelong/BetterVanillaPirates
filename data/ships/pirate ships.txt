@@ -3,7 +3,7 @@ ship "Nighthawk Mk II"
 	thumbnail "thumbnail/pirate nighthawk"
 	attributes
 		category "Transport"
-		"cost" 7590000
+		"cost" 6325000
 		"shields" 12000
 		"hull" 3300
 		"required crew" 4
@@ -61,8 +61,8 @@ ship "Mammoth Mk II"
 	attributes
 		category "Utility"
 		"cost" 37600000
-		"shields" 6200
-		"hull" 7400
+		"shields" 18600
+		"hull" 22200
 		"required crew" 18
 		"bunks" 30
 		"mass" 1361
