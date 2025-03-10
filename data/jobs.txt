@@ -18,7 +18,7 @@ mission "Southern Marauder Blockade"
 	npc
 		government "Militia"
 		personality heroic launching
-		fleet "Large Militia" 2
+		fleet "Large Militia" 6
 	npc
 		government "Militia"
 		personality heroic staying
@@ -62,7 +62,7 @@ mission "Northern Marauder Blockade"
 	npc
 		government "Republic"
 		personality heroic launching
-		fleet "Small Republic" 2
+		fleet "Small Republic" 6
 	npc
 		government "Republic"
 		personality heroic staying
@@ -104,7 +104,7 @@ mission "Deep Marauder Blockade"
 	npc
 		government "Deep Security"
 		personality heroic launching
-		fleet "Large Deep Security" 2
+		fleet "Large Deep Security" 6
 	npc
 		government "Deep Security"
 		personality heroic staying
@@ -148,7 +148,7 @@ mission "Core Marauder Blockade"
 	npc
 		government "Syndicate"
 		personality heroic launching
-		fleet "Large Syndicate"
+		fleet "Large Syndicate" 6
 	npc
 		government "Syndicate"
 		personality heroic staying
