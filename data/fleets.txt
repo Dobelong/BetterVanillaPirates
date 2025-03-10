@@ -2,6 +2,7 @@
 # This is used for jobs, spaceport missions, and Bounty Hunted invisible missions.
 # Korath Automata raider fleet added.
 
+# Two Marauder Heavy Warships, 2 Mediums, 3 Lights, 1 Int
 fleet "Marauder fleet XX"
 	government "Pirate"
 	names "pirate"
@@ -168,6 +169,7 @@ fleet "Elite Vanguards"
 	variant 1
 		"Vanguard (Particle)"
 
+#4-5 heavy warships
 fleet "Elite Bounty Hunters"
 	government "Pirate"
 	names "pirate"
