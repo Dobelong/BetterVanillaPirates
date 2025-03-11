@@ -556,7 +556,7 @@ mission "Core Marauder Blockade Attempt"
 	npc
 		government "Syndicate"
 		personality heroic staying launching
-		fleet "Large Syndicate" 2
+		fleet "Large Syndicate" 5
 	npc
 		government "Syndicate"
 		personality heroic
