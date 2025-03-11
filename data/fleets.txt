@@ -127,6 +127,18 @@ fleet "Korath Raid - Automata"
 		"Model 32 (Jump)"
 		"Model 16 (Jump)" 5
 
+fleet "Korath Raid - Leader"
+	government "Korath"
+	names "korath"
+	fighters "korath"
+	cargo 1
+	personality
+		disables plunders opportunistic harvests
+	variant 2
+		"'nra'ret"
+	variant 2
+		"'nra'ret (Crippler)"
+
 fleet "Elite Bactrian Merchants"
 	government "Merchant"
 	names "civilian"
