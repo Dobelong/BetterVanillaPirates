@@ -1,0 +1,34 @@
+mission "Raider Attack - Automata"
+	name "Raider Attack on <planet>"
+	description "Defeat an alien raid on <destination>."
+	job
+	repeat
+	to offer
+		random < 50
+		has "Wanderers: Sestor: Final: Patched: done"
+	source
+		planet "Sundive"
+		planet "Shangri-La"
+		planet "Nimbus"
+	npc evade
+		government "Korath"
+		personality target unconstrained staying harvests plunders
+		fleet "Korath Raid - Automata" 4
+		fleet "Korath Raid" 1
+		fleet "Korath Raid - Leader" 1
+	npc
+		government "Syndicate"
+		personality heroic staying vindictive
+		fleet "Large Syndicate" 8
+	on accept
+		conversation
+			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by alien raiders! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			choice
+				`	(Stay here until the fight is over.)`
+					decline
+				`	(Join the defense fleet.)`
+			`The local Syndicate defense forces are preparing to repel the alien attack. You join them, and take off together...`
+				launch
+	on complete
+		payment 1000000
+		dialog `The government of <planet> pays you <payment> for helping to drive off the raiders.`
