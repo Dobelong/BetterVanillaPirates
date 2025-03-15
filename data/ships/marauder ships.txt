@@ -11,7 +11,7 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-#Marauder Mk II Ships, like most Mk II ships, have 2.5x shield and hull.
+#Marauder Mk II Ships, like most Mk II ships, have 2.5x hull cost, shield and hull.
 
 ship "Marauder Arrow Mk II"
 	sprite "ship/marrows"
