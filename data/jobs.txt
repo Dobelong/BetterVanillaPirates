@@ -1580,7 +1580,7 @@ mission "Raider Attack - Automata"
 	repeat
 	to offer
 		random < 25
-		has "Wanderers: Sestor: Final: done"
+		has "Wanderers: Sestor: Final: Patched: done"
 	source
 		planet "Sundive"
 		planet "Shangri-La"
