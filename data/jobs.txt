@@ -1725,7 +1725,7 @@ mission "Marauder Hunted Two"
 		"combat rating" > 59875
 		"combat rating" < 162755
 		not "Marauder Hunted Two: active"
-		random < 2
+		random < -2
 	npc kill
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
@@ -1745,7 +1745,7 @@ mission "Marauder Hunted Three"
 		"combat rating" > 162755
 		not "Marauder Hunted Three: active"
 		not "Elite Marauder Hunted: active"
-		random < 2
+		random < -2
 	npc kill
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
@@ -1768,7 +1768,7 @@ mission "Elite Marauder Hunted"
 		"combat rating" > 162755
 		not "Elite Marauder Hunted: active"
 		not "Marauder Hunted Three: active"
-		random < 2
+		random < -2
 	npc kill
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
