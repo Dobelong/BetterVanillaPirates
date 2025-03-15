@@ -1,3 +1,4 @@
+#Automata Unit: 1 HW or equivalent strength in lighter units.
 fleet "Korath Raid - Automata"
 	government "Korath"
 	names "korath"
