@@ -19,7 +19,7 @@ mission "Raider Attack - Automata"
 	npc
 		government "Syndicate"
 		personality heroic staying vindictive
-		fleet "Large Syndicate" 8
+		fleet "Large Syndicate" 12
 	on accept
 		conversation
 			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by alien raiders! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
