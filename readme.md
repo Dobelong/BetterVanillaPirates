@@ -1,6 +1,9 @@
 # Better Vanilla Pirates for Endless Sky
 
-## 2.2 (in progress)
+## 2.3 
+Mostly focused on making the missions less annoying. All defense jobs are at the job board now!
+
+## 2.2
 
 Dobelong here! I'm carrying on the work ZBok started until they come back. Do you dislike your heavy warships flying like fighters after the entire universe got reworked? I got you!
 
