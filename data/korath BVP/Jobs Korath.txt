@@ -1,6 +1,6 @@
 mission "Raider Attack - Automata"
-	name "Raider Attack on <planet>"
-	description "Defeat an alien raid on <destination>."
+	name "Korath Attack on <planet>"
+	description "Defeat a Korath raid on <destination>."
 	job
 	repeat
 	to offer
