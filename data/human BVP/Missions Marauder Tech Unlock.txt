@@ -1,0 +1,105 @@
+#Marauder tech unlock once you beat the Wanderer Campaign. 
+#Surprise party on New Tortuga. Pirates will shoot you if you run but will welcome you if you stay or draw a gun
+mission "BVP: Marauder Tech Unlock 1"
+	landing
+	name "A coded invitation"
+	description "Find out the meaning of the coded transmission from <destination>."
+	destination "New Tortuga"
+	to offer
+		has "BVP: Sensa Unlock Ships: done"
+		has "wanderers: sestor eliminated"
+	dialog
+			`You recieve a garbled encoded transmission... from Pirate channels.`
+			`Captain <last>. We have something you rightfully deserve, yet has eluded you all this time. Come to New Tortuga. This is not a trap.`
+			
+mission "BVP: Marauder Tech Unlock 2"
+	landing
+	invisible
+	name "A coded invitation part 2"
+	description "Find out the meaning of the coded transmission from <source>."
+	source "New Tortuga"
+	to offer
+		has "BVP: Marauder Tech Unlock 1: done"
+		has "wanderers: sestor eliminated"
+	on offer
+		conversation
+			`The spaceport and advanced shipyard are unusally quiet. Not a single soul is to be seen. No heavily armed soldiers, no hooded merchants, nothing. You can still make out the shadowed silhouettes of heavy warships in the nearby spaceport landing pads.`
+			choice
+				`	Look around the local area.`
+			`All the lights at the buildings are off too. It's like the entire spaceport has been abandoned overnight.`
+			`All except for one, that is. A neon light above a fancily engraved wooden double door reads "The Leaky Coolant Pod."`
+			`A suspiciously well dressed valet approaches you in front of your ship.`
+			`"Captain <last>, the guest of honor! Please follow me."`
+			choice
+				`	Follow the man.`
+					goto follow
+				`	Ignore him and continue walking.`
+					goto ignore
+			label ignore
+			`	"I'd suggest you reconsider, Captain. Don't keep them waiting."`
+			choice
+				`	Follow him.`
+					goto follow
+				`	"This is way too suspicious. I'm out!"`
+					defer
+			label follow
+			`	You follow the man a few blocks when he stops and small nondescript door next to a restaurant. He beckons for you to enter.`
+			`	As you walk inside you see another guy dressed rather similarly not far from the door, holding his hands in front of him, looking at you. This place looks like a restaurant, just apparently empty.`
+			`	... Or so you would think, until you notice the crowd of battle-scarred ruffians gathered around a bar counter. All of them are carrying weapons.`
+			`	Before you can even look behind you, you hear the door slam shut. Suddenly, everyone at the counter is looking at you.`
+			`	A few seconds later you heart a flurry of clicks and locks, and all their guns are poined at you as well.`
+			`	"We've been waiting for you, Captain <last>!"`
+			choice
+				`	(Run for it!)`
+					goto coward
+				`	(Radio in your fleet)`
+					goto madman
+				`	(Draw your weapon.)`
+					goto brave
+				
+			label coward
+			`	Before you can even turn around, the ruffians all open fire and turn you to cheese.`
+			` 	As you faceplant on the floor, you can hear one of them say, "See? I told you <last> was a yellow-bellied coward!"`
+				die
+			label madman
+			`	"This is Captain <last> to the <ship>. If my signal goes out I want you to target my last known position with a full weapons barrage."`
+				goto joke
+			label brave
+			` 	You draw your weapon. It's one barrel against about two-dozen, and you know your survival odds are pretty slim.`
+			
+			label joke
+			`	Suddenly, one of the ruffians lowers his gun and stars laughing. The others follow suit.`
+			choice
+				`	Laugh along awkwardly.`
+				`	"What?"`
+				
+			`	The one who lowered his gun first speaks. "Well well well, looks like the legends about you are true after all!."`
+			`	You can just about make out a voice in the back pipe up, "I told you so!."`
+			`	"That's right, You're a Marauder, just like us."`
+			choice
+				`	"It's about time."`
+					goto agree
+				`	"Excuse you! I'm a noble warrior who only fights for the good of others, as a last resort."`
+					goto delusional
+				`	(say nothing)`
+					goto agree
+			
+			label delusional
+			`	The crowd laughs even harder than before. "Okay, captain goody-two-shoes. I trust you definitely took allll those bounty jobs for the public good, eh? Donated the bounty money to a charity perhaps?"`
+				goto toast
+			
+			label agree
+			`	A few pirates up front give you toothy grins. "Well, I'm glad we're on the same page."`
+			label toast
+			`	The first pirate chimes in again. "A toast, to Marauder <last>!"`
+			`	The crowd cheers.`
+	on complete
+		planet "New Tortuga"
+			add shipyard "Upgraded Marauder Ships"
+		log `Got access to uprated Marauder ships at New Tortuga. Was also deemed an "Honorary Marauder."`
+		give ship "Marauder Raven MK II" "Marauder Raven MK II (Engines)" "Live"
+		conversation
+			scene "thumbnail/mravene"
+			`	As you return to your ship, one Marauder follows a few paces behind you and taps you on the shoulder.`
+			`	"Hey <last>, heard you were a captain of culture. In that case, ya might like this."`
+			`	"You'll be able to purchase upgraded versions of aaalll the other Marauders ships here too. See you on the battlefield."`
