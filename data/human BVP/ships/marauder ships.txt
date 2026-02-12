@@ -13,14 +13,34 @@
 
 #Marauder Mk II Ships, like most Mk II ships, have 2.5x hull cost, shield and hull.
 
+
+#Ships:
+
+#Interceptor
+#Marauder Arrow
+#Marauder Bounder
+
+#Light Warship
+#Marauder Quicksilver
+#Marauder Raven
+
+#Medium Warship
+#Marauder Firebird
+#Marauder Manta
+#Marauder Splinter
+
+#Heavy Warship
+#Marauder Falcon
+#Marauder Leviathan
+
 ship "Marauder Arrow Mk II"
 	sprite "ship/marrows"
 	thumbnail "thumbnail/marrows"
 	attributes
 		category "Interceptor"
-		"cost" 1320000
-		"shields" 2300
-		"hull" 500
+		"cost" 3300000
+		"shields" 5750
+		"hull" 1250
 		"required crew" 2
 		"bunks" 5
 		"mass" 200
@@ -118,9 +138,9 @@ ship "Marauder Bounder Mk II"
 	thumbnail "thumbnail/mbounders"
 	attributes
 		category "Interceptor"
-		"cost" 1250000
-		"shields" 2500
-		"hull" 700
+		"cost" 3125000
+		"shields" 6250
+		"hull" 1750
 		"required crew" 2
 		"bunks" 18
 		"mass" 220
@@ -229,9 +249,9 @@ ship "Marauder Falcon Mk II"
 	thumbnail "thumbnail/mfalcons"
 	attributes
 		category "Heavy Warship"
-		"cost" 13900000
-		"shields" 14100
-		"hull" 4100
+		"cost" 34750000
+		"shields" 35250
+		"hull" 10250
 		"required crew" 57
 		"bunks" 96
 		"mass" 1390
@@ -369,9 +389,9 @@ ship "Marauder Firebird Mk II"
 	thumbnail "thumbnail/mfirebirds"
 	attributes
 		category "Medium Warship"
-		"cost" 4100000
-		"shields" 6400
-		"hull" 3600
+		"cost" 10250000
+		"shields" 16000
+		"hull" 9000
 		"required crew" 10
 		"bunks" 25
 		"mass" 750
@@ -488,9 +508,9 @@ ship "Marauder Leviathan Mk II"
 	thumbnail "thumbnail/mleviathans"
 	attributes
 		category "Heavy Warship"
-		"cost" 10800000
-		"shields" 16000
-		"hull" 5500
+		"cost" 27000000
+		"shields" 40000
+		"hull" 13750
 		"required crew" 48
 		"bunks" 69
 		"mass" 1700
@@ -619,9 +639,9 @@ ship "Marauder Manta Mk II"
 	thumbnail "thumbnail/mmantas"
 	attributes
 		category "Medium Warship"
-		"cost" 3740000
-		"shields" 6500
-		"hull" 1750
+		"cost" 9350000
+		"shields" 16250
+		"hull" 4375
 		"required crew" 7
 		"bunks" 11
 		"mass" 400
@@ -749,9 +769,9 @@ ship "Marauder Quicksilver Mk II"
 	thumbnail "thumbnail/mquicksilvers"
 	attributes
 		category "Light Warship"
-		"cost" 1200000
-		"shields" 3500
-		"hull" 900
+		"cost" 3000000
+		"shields" 8750
+		"hull" 2250
 		"required crew" 4
 		"bunks" 7
 		"mass" 220
@@ -911,9 +931,9 @@ ship "Marauder Raven Mk II"
 	thumbnail "thumbnail/mravens"
 	attributes
 		category "Light Warship"
-		"cost" 2750000
-		"shields" 5200
-		"hull" 1600
+		"cost" 6875000
+		"shields" 13000
+		"hull" 4000
 		"required crew" 7
 		"bunks" 14
 		"mass" 280
@@ -1026,9 +1046,9 @@ ship "Marauder Splinter Mk II"
 	thumbnail "thumbnail/msplinters"
 	attributes
 		category "Medium Warship"
-		"cost" 3400000
-		"shields" 5700
-		"hull" 1950
+		"cost" 8500000
+		"shields" 14250
+		"hull" 4875
 		"required crew" 8
 		"bunks" 22
 		"mass" 565
@@ -1137,4 +1157,3 @@ ship "Marauder Splinter Mk II" "Marauder Splinter Mk II (Weapons)"
 	turret 0 9 "Heavy Anti-Missile Turret"
 	turret 13.5 42.5 "Quad Blaster Turret"
 	description "This Splinter has had extensive modification to its weapons space, with two new forward hard points on either side of the bridge. Large sections of the hull are covered with extra shield emitters and hull plating. Much of the stock cargo space has been converted to space for outfits, weapons, and engines; coupled with a streamlining of existing internal systems, it makes the prospect of meeting this flexible war machine in an uninhabited system seem pretty unappealing."
-

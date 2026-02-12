@@ -1,5 +1,3 @@
-
-
 ship "Barb Mk II"
 	sprite "ship/barb"
 	thumbnail "thumbnail/barb"

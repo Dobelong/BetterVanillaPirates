@@ -2,31 +2,26 @@
 #Surprise party on New Tortuga. Pirates will shoot you if you run but will welcome you if you stay or draw a gun
 mission "BVP: Marauder Tech Unlock 1"
 	landing
+	non-blocking
 	name "A coded invitation"
 	description "Find out the meaning of the coded transmission from <destination>."
 	destination "New Tortuga"
 	to offer
 		has "BVP: Sensa Unlock Ships: done"
-		has "wanderers: sestor eliminated"
-	dialog
-			`You recieve a garbled encoded transmission... from Pirate channels.`
-			`Captain <last>. We have something you rightfully deserve, yet has eluded you all this time. Come to New Tortuga. This is not a trap.`
-			
-mission "BVP: Marauder Tech Unlock 2"
-	landing
-	invisible
-	name "A coded invitation part 2"
-	description "Find out the meaning of the coded transmission from <source>."
-	source "New Tortuga"
-	to offer
-		has "BVP: Marauder Tech Unlock 1: done"
-		has "wanderers: sestor eliminated"
+		has "event: wanderers: sestor eliminated"
 	on offer
+		dialog
+				`You recieve a garbled encoded transmission... from Pirate channels.`
+				`Captain <last>. We have something you rightfully deserve, yet has eluded you all this time. Come to New Tortuga. This is not a trap.`
+	on complete
+		event "BVP: Become Honorary Marauder"
+		log `Got access to uprated Marauder ships at New Tortuga. Was also deemed an "Honorary Marauder."`
+		give ship "Marauder Raven Mk II (Engines)" "Live"
 		conversation
 			`The spaceport and advanced shipyard are unusally quiet. Not a single soul is to be seen. No heavily armed soldiers, no hooded merchants, nothing. You can still make out the shadowed silhouettes of heavy warships in the nearby spaceport landing pads.`
 			choice
 				`	Look around the local area.`
-			`All the lights at the buildings are off too. It's like the entire spaceport has been abandoned overnight.`
+			`All the lights of the buildings are off too. It's like the entire spaceport has been abandoned overnight.`
 			`All except for one, that is. A neon light above a fancily engraved wooden double door reads "The Leaky Coolant Pod."`
 			`A suspiciously well dressed valet approaches you in front of your ship.`
 			`"Captain <last>, the guest of honor! Please follow me."`
@@ -93,13 +88,17 @@ mission "BVP: Marauder Tech Unlock 2"
 			label toast
 			`	The first pirate chimes in again. "A toast, to Marauder <last>!"`
 			`	The crowd cheers.`
-	on complete
-		planet "New Tortuga"
-			add shipyard "Upgraded Marauder Ships"
-		log `Got access to uprated Marauder ships at New Tortuga. Was also deemed an "Honorary Marauder."`
-		give ship "Marauder Raven MK II" "Marauder Raven MK II (Engines)" "Live"
-		conversation
-			scene "thumbnail/mravene"
+
 			`	As you return to your ship, one Marauder follows a few paces behind you and taps you on the shoulder.`
 			`	"Hey <last>, heard you were a captain of culture. In that case, ya might like this."`
+			scene "thumbnail/mravene"
 			`	"You'll be able to purchase upgraded versions of aaalll the other Marauders ships here too. See you on the battlefield."`
+		
+
+event "BVP: Become Honorary Marauder"
+	planet "New Tortuga"
+		add shipyard "Upgraded Marauder Ships"
+	planet "Smuggler's Den"
+		add shipyard "Upgraded Marauder Ships"
+	planet "Buccaneer Bay"
+		add shipyard "Upgraded Marauder Ships"

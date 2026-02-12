@@ -54,10 +54,7 @@ mission "BVP: Sensa Unlock Ships"
 			`	"Yes, well, I'm sure you can figure it out. Get a bigger ship."`
 				accept	
 	on complete
-		planet "New Tortuga"
-			add shipyard "Upgraded Human Ships"
-			add shipyard "Upgraded Navy Ships"
-			add shipyard "Upgraded Pirate Ships"
+		event "BVP: New Tortuga Upgraded Ships Unlocked"
 		log `Got access to uprated human ships at New Tortuga.`
 		outfit "Systems Core (Medium)" -4
 		give ship "Vanguard Mk II" "Kill"
@@ -66,6 +63,12 @@ mission "BVP: Sensa Unlock Ships"
 			`	Sensa meets you as you disembark.`
 			`	"Thank you, one of our teams will collect the cores shortly." she says. "As payment, and as thanks for your contributions to humanity, I've prepared a sample of our shipyards; a Vanguard Mk II, free of charge. It's still fitted with stock equipment so I suggest refitting to some high quality alien tech. With the upgrades we've performed, this ship is more than a match for many alien ships you may meet. "`
 			`	"In addition, you will now have the option of purchasing our ships in this system."`
+
+event "BVP: New Tortuga Upgraded Ships Unlocked"
+	planet "New Tortuga"
+				add shipyard "Upgraded Human Ships"
+				add shipyard "Upgraded Navy Ships"
+				add shipyard "Upgraded Pirate Ships"
 
 
 #Note to self: Don't forget to put Kestrels back on sale!

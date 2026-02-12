@@ -1,0 +1,125 @@
+shipyard "Upgraded Human Ships"
+	"Bactrian Mk II"
+	"Dreadnought Mk II"
+	"Leviathan Mk II"
+	"Falcon Mk II"
+	"Protector Mk II"
+	"Vanguard Mk II"
+		
+	"Aerie Mk II"
+	"Bastion Mk II"
+	"Corvette Mk II"
+	"Firebird Mk II"
+	"Manta Mk II"
+	"Osprey Mk II"
+	"Splinter Mk II"
+		
+	"Headhunter Mk II"
+	"Modified Argosy Mk II"
+	"Quicksilver Mk II"
+	"Raven Mk II"
+		
+	"Barb Mk II"
+	"Dagger Mk II"
+	"Finch Mk II"
+	"Lance Mk II"
+		
+	"Argosy Mk II"
+	"Clipper Mk II"
+	"Freighter Mk II"
+	"Hauler Mk II"
+	"Hauler II Mk II"
+	"Hauler III Mk II"
+	"Behemoth Mk II"
+	"Bulk Freighter Mk II"
+	"Container Transport Mk II"
+
+	"Berserker Mk II"
+	"Fury Mk II"
+	"Hawk Mk II"
+	"Sparrow Mk II"
+	"Wasp Mk II"
+
+	"Mule Mk II"
+	"Nest Mk II"
+	"Roost Mk II"
+	"Skein Mk II"
+	
+	"Arrow Mk II"
+	"Blackbird Mk II"
+	"Bounder Mk II"
+	"Flivver Mk II"
+	"Scout Mk II"
+	"Star Queen Mk II"
+	
+shipyard "Upgraded Navy Ships"
+	"Auxiliary Mk II"
+	"Carrier Mk II"
+	"Combat Drone Mk II"
+	"Cruiser Mk II"
+	"Dropship Mk II"
+	"Frigate Mk II"
+	"Gunboat Mk II"
+	"Rainmaker Mk II"
+	
+shipyard "Upgraded Pirate Ships"
+	"Nighthawk Mk II"
+	"Mammoth Mk II"
+	
+
+#Ships:
+
+#Interceptor
+#Marauder Arrow
+#Marauder Bounder
+
+#Light Warship
+#Marauder Quicksilver
+#Marauder Raven
+
+#Medium Warship
+#Marauder Firebird
+#Marauder Manta
+#Marauder Splinter
+
+#Heavy Warship
+#Marauder Falcon
+#Marauder Leviathan
+
+shipyard "Upgraded Marauder Ships"
+	"Marauder Arrow Mk II"
+	"Marauder Arrow Mk II (engines)"
+	"Marauder Arrow Mk II (weapons)"
+	
+	"Marauder Bounder Mk II"
+	"Marauder Bounder Mk II (engines)"
+	"Marauder Bounder Mk II (weapons)"
+	
+	"Marauder Quicksilver Mk II"
+	"Marauder Quicksilver Mk II (engines)"
+	"Marauder Quicksilver Mk II (weapons)"
+	
+	"Marauder Raven Mk II"
+	"Marauder Raven Mk II (engines)"
+	"Marauder Raven Mk II (weapons)"
+
+	"Marauder Firebird Mk II"
+	"Marauder Firebird Mk II (engines)"
+	"Marauder Firebird Mk II (weapons)"
+
+	"Marauder Manta Mk II"
+	"Marauder Manta Mk II (engines)"
+	"Marauder Manta Mk II (weapons)"
+
+	"Marauder Splinter Mk II"
+	"Marauder Splinter Mk II (engines)"
+	"Marauder Splinter Mk II (weapons)"
+
+	"Marauder Falcon Mk II"
+	"Marauder Falcon Mk II (engines)"
+	"Marauder Falcon Mk II (weapons)"
+
+	"Marauder Leviathan Mk II"
+	"Marauder Leviathan Mk II (engines)"
+	"Marauder Leviathan Mk II (weapons)"
+
